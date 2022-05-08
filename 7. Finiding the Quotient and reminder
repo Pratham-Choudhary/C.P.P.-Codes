@@ -1,0 +1,16 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+	int a,b,c,d;
+	cout<<"Enter the Dividend";
+	cin>>a;
+	cout<<"\nEnter thr divisor";
+	cin>>b;
+	c=a/b;
+	d=a%b;
+	cout<<"\nQuotient= "<<c;
+	cout<<"\nReminder= "<<d;
+	return 0;
+}
