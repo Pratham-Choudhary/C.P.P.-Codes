@@ -1,0 +1,10 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+	char a[29];
+	std::cout<<"Enter text to be printed:";
+	cin>>a;
+	cout<<"\n\n"<<a;
+}
