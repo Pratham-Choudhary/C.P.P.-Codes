@@ -1,0 +1,16 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+	int a;
+	cout<<"Enter the Number: ";
+	cin>>a;
+	if(a%2==0){
+		cout<<"\nNUMBER IS EVEN";
+	}
+	else{
+		cout<<"\nNUMBER IS ODD";
+	}
+	return 0;
+}
