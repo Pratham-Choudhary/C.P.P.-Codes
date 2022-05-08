@@ -1,0 +1,11 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+	int a,b,sum=0;
+	cout<<"Enter the numbers:-";
+	cin>>a>>b;
+	sum=a+b;
+	cout<<"\nThe sum of "<<a<<" and "<<b<<" is "<<sum;
+}
