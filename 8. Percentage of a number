@@ -1,0 +1,14 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+	int a,b,n;
+	cout<<"Enter the number: ";
+	cin>>a;
+	cout<<"\nEnter the percentage: ";
+	cin>>n;
+	b=a/100*n;
+	cout<<"\nThe "<<n<<"% of "<<a<<" is "<<b;
+	return 0;
+}
