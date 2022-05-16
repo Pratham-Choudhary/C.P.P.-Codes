@@ -1,0 +1,21 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+	int n;
+	long fact=1;
+	cout<<"Enter the Number: ";
+	cin>>n;
+	if(n>=1)
+	{
+		for(int i=1; i<=n; ++i){
+			fact *= i;
+		}
+		cout<<"\nFactorial of "<<n<<" is = "<<fact;
+	}
+	else
+	{
+		cout<<"Number is smaller than 1";
+	}
+}
