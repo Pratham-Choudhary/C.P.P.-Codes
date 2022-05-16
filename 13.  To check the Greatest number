@@ -1,0 +1,21 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+	int n1,n2,n3;
+	cout<<"Enter the numbers: ";
+	cin>>n1>>n2>>n3;
+	if(n1>=n2 && n1>=n3)
+	{
+		cout<<"\nThe Number "<< n1 <<" is Grater ";
+	}
+	else if(n2>=n1 && n2>=n3)
+	{
+		cout<<"\nThe Number "<< n2 <<" is Greater ";
+	}
+	else
+	{
+		cout<<"\nThe Number "<< n3 <<" is Greater ";
+	}
+}
