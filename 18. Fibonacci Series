@@ -1,0 +1,29 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+	int n,m=0,l=1,term=0;
+	cout<<"Enter the n term: ";
+	cin>>n;
+	cout<<"\nFibonacci Series: ";
+	for(int i=1; i<=n; ++i)
+	{
+		if(i==1)
+		{
+			cout<<m<<", ";
+			continue;
+		}
+		if(i==2)
+		{
+			cout<<l<<", ";
+			continue;
+		}
+		term=m+l;
+		m=l;
+		l=term;
+		
+		cout<<term<<", ";
+	}
+	return 0;
+}
