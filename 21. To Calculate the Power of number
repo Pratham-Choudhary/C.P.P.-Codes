@@ -1,0 +1,14 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+	int p,b,result=1;
+	cout<<"Enter the Base and Power: ";
+	cin>>b>>p;
+	for(int i=1; i<=p; i++)
+	{
+		result *= b;
+	}
+	cout<<result;
+}
