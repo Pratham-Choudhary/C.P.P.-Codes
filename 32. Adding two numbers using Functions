@@ -1,0 +1,19 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int sum(int a, int b)
+{
+    int t;
+    t = a+b;
+    cout<<"\nSUM = "<<t;
+    return 0;
+}
+
+int main()
+{
+    int n1,n2,j;
+    cout<<"ENTER THE TWO NUMBERS: ";
+    cin>>n1>>n2;
+    j = sum(n1,n2);
+    return 0;
+}
