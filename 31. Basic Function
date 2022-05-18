@@ -1,0 +1,15 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int hello(int a,string s, int b, string k)
+{
+	cout<<"\nI'M THE BEST"<<a+b<<s<<k;
+	return 1;
+}
+
+int main()
+{
+	cout<<"Hello, World!";
+	int j = hello(2,"str",8,"the");
+	return 0;
+}
