@@ -1,0 +1,24 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+    int a,n,reminder,result=0;
+    cout<<"Enter the Number: ";
+    cin>>a;
+    n = a;
+    while(n != 0)
+    {
+        reminder = n%10;
+        result += reminder*reminder*reminder;
+        n /= 10;
+    }
+    if(result==a)
+    {
+        cout<<a<<" is Armstrong Number ";
+    }
+    else
+    {
+        cout<<a<<" is not an Armstrong Number ";
+    }
+}
