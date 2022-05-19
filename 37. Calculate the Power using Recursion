@@ -1,0 +1,23 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int calpower(int base, int power)
+{
+    if (power != 0)
+        return base*calpower(base, power - 1);
+    else
+        return 1;
+}
+
+int main()
+{
+    int power, base, result;
+    cout<<"Enter the Base: ";
+    cin>>base;
+
+    cout<<"\nEnter the Power: ";
+    cin>>power;
+
+    result = calpower(base, power);
+    cout<<"\nResult: "<<result;
+}
