@@ -1,0 +1,25 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+    int n;
+    int arr[n];
+    cout<<"Enter the Size of Array: ";
+    cin>>n;
+    cout<<"\nEnter the Array: ";
+    for (int i=0; i<n ; i++)
+    {
+    cin>>arr[i];
+    }
+    int max1 = INT_MIN;
+    int min1 = INT_MAX;
+    for(int i=0 ; i<n ; i++)
+    {
+         max1 = max(max1,arr[i]);
+         min1 = min(min1,arr[i]);
+    }
+    cout<<"\nMaximum Number: "<<max1;
+    cout<<"\nMinimum number: "<<min1;
+    return 0;
+}
