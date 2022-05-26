@@ -1,0 +1,16 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+void print_revvector(vector<int>A)
+{
+	for(int i=A.size()-1; i>=1;--i)
+	{
+		cout<<"i: "<<i<<" A[i]="<<A[i]<<" "<<endl;
+	}
+}
+
+int main()
+{
+	vector<int>A={1,2,3,4,5,6,7,8,9};
+	print_revvector(A);
+}
