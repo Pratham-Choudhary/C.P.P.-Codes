@@ -3,9 +3,9 @@ using namespace std;
 
 void print_revvector(vector<int>A)
 {
-	for(int i=A.size()-1; i>=1;--i)
+	for(int i=8; i<A.size();--i)
 	{
-		cout<<"i: "<<i<<" A[i]="<<A[i]<<" "<<endl;
+		cout<<" A[i]="<<A[i]<<" "<<endl;
 	}
 }
 
