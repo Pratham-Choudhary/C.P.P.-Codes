@@ -10,7 +10,7 @@ void repeat(string X)
 	}
 	for(char a='a' ; a<='c' ; a++)
 	{
-		cout<<(X+a)<<" ";
+		repeat(X+a);
 	}
 }
 
