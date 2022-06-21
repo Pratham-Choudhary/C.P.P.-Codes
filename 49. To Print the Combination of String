@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+
+void repeat(string X)
+{
+	cout<<X<<endl;
+	if(X.size()==3)
+	{
+		return;
+	}
+	for(char a='a' ; a<='c' ; a++)
+	{
+		cout<<(X+a)<<" ";
+	}
+}
+
+int main() {
+	string X={'a','b'};
+	repeat(X);
+}
